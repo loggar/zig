@@ -1,0 +1,12 @@
+{
+    "zig.zls.path": "/Users/andy/Library/Application Support/Code/User/globalStorage/ziglang.vscode-zig/zls_install/zls",
+    "terminal.integrated.profiles.osx": {
+        "zsh": {
+            "path": "zsh",
+            "args": [
+                "-i"
+            ]
+        }
+    },
+    "terminal.integrated.defaultProfile.osx": "zsh",
+}
