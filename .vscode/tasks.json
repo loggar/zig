@@ -4,7 +4,7 @@
     "version": "2.0.0",
     "tasks": [
         {
-            "label": "zig build",
+            "label": "build",
             "type": "shell",
             "command": "zig",
             "args": [
@@ -28,6 +28,19 @@
                 "kind": "build",
                 "isDefault": true
             }
+        },
+        {
+            "label": "build and run",
+            "type": "shell",
+            "command": "zig run ${file}",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": [
+                "$zig"
+            ],
+            "detail": "Build and run the current Zig file"
         }
     ]
 }
